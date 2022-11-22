@@ -1,0 +1,32 @@
+.espacio {
+	border: 1px red solid;
+}
+
+body {
+	background-image: url('/img/fondo.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: bottom 50px right 100px;
+}
+
+.navbar {
+	height: 7%;
+	background-color: white !important;
+}
+
+.texto-parrafo {
+	font-size: 13px;
+}
+
+.social_icons a {
+	color: darkgray;
+}
+
+.social_icons a:hover {
+	color: blue;
+}
+
+.footer-text {
+	font-weight: 600;
+	color: black;
+}
