@@ -7,11 +7,20 @@ body {
 	background-image: url('../img/fondo.png');
 	background-size: contain;
 	background-repeat: no-repeat;
-	background-position: bottom 50px left 200px;
+	background-position: bottom 50px right 200px;
 }
 
 .logo {
 	width: 100px;
+}
+
+.animacion {
+	/* border: 1px red solid; */
+	text-align: center;
+	max-height: 15vh;
+	overflow: hidden;
+	vertical-align: middle;
+	background-size: cover !important;
 }
 
 .links {
