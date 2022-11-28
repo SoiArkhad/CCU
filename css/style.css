@@ -19,9 +19,6 @@ body {
 	text-align: center;
 	max-height: 15vh;
 	overflow: hidden;
-	vertical-align: middle;
-	background-size: cover !important;
-}
 
 .links {
 	font-weight: 400;
