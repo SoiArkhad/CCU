@@ -27,15 +27,16 @@
     <header>
         <!-- navar -->
         <nav class="navbar navbar-expand-sm navbar-light bg-light links">
-            <div class="container">
-                <a class="navbar-brand" href="#"><img src="img/logo-dark.png" width="70" class="logo" alt=""></a>
+            <div class="container-fluid margen">
+                <a class="navbar-brand" href="#">
+                    <img src="img/logo-dark.png" class="logo" alt=""></a>
                 <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse"
                     data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
                     aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="collapsibleNavId">
-                    <ul class="navbar-nav ms-auto mt-lg-0">
+                    <ul class="navbar-nav ms-auto mt-lg-0 flex-grow-1 justify-content-between">
                         <li class="nav-item">
                             <a class="nav-link active" href="/" aria-current="page">INICIO<span
                                     class="visually-hidden">(current)</span></a>
@@ -66,7 +67,16 @@
     </header>
     <section>
         <div id="promo1" class="container carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner mt-5">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#promo1" data-bs-slide-to="0" class="active" aria-current="true"
+                    aria-label="Slide 1">
+                </button>
+                <button type="button" data-bs-target="#promo1" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#promo1" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#promo1" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                <button type=" button" data-bs-target="#promo1" data-bs-slide-to="4" aria-label="Slide 5"></button>
+            </div>
+            <div class="carousel-inner mt-3 alto-slider">
                 <div class="carousel-item active">
                     <img src="img/galeria/0.png" class="d-block w-100" alt="...">
                 </div>
@@ -95,27 +105,27 @@
     </section>
     <main>
         <div class="container">
-            <h3 class="pt-3 display-6">Promotores Externos</h3>
-            <hr class="pb-1">
+            <h3 class="pt-3 display-6 fw-semibold">Promotores Externos</h3>
+            <hr>
             <div class="row align-items-center">
                 <div class="col-12 col-lg-4">
-                    <img class="img-fluid mb-1" src="img/promotores/promo1.gif" alt="text">
+                    <img class="img-fluid" src="img/promotores/promo1.gif" alt="text">
                     <hr />
-                    <h3 class="text-center">Gaby & Gilda</h3>
+                    <h3 class="text-center mb-4">Gaby & Gilda</h3>
                 </div>
                 <div class="col-12 col-lg-4">
-                    <img class="img-fluid mb-1" src="img/promotores/promo2.gif" alt="text">
+                    <img class="img-fluid" src="img/promotores/promo2.gif" alt="text">
                     <hr />
-                    <h3 class="text-center">Los tres tristes tigres</h3>
+                    <h3 class="text-center mb-4">Los tres tristes tigres</h3>
                 </div>
-                <div class="col-12 col-lg-4">
-                    <img class="img-fluid mb-1" src="img/promotores/promo3.gif" alt="text">
+                <div class="col-12 col-lg-4 ">
+                    <img class="img-fluid" src="img/promotores/promo3.gif" alt="text">
                     <hr />
-                    <h3 class="text-center">Alan Navarro</h3>
+                    <h3 class="text-center mb-4">Alan Navarro</h3>
                 </div>
             </div>
-            <h3 class="pt-3 display-6">Eventos CCU</h3>
-            <hr class="pb-1">
+            <h3 class="pt-3 display-6 fw-semibold">Eventos CCU</h3>
+            <hr />
             <nav>
                 <div class="nav nav-tabs eventos" id="nav-tab" role="tablist">
                     <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home"
@@ -147,7 +157,7 @@
                                 “EARTH” de Wade Madsen, “DESIERTO INDUSTRIAL” de Ángel Arámbula y Henry Torres. Estamos
                                 seguros de que te encantara: Relájate, disfrútalo y se feliz con nosotros.
                             </p>
-                            <button class="btn btn-outline-dark mt-3 py-1">Programa de Actividades</button>
+                            <button class="btn btn-outline-dark mt-1 mb-4 ">Programa de Actividades</button>
                         </div>
                     </div>
                     <div class="row align-items-center ">
@@ -187,7 +197,8 @@
             </ul>
         </div>
         <div class="col-12 col-lg-12">
-            <p class="footer-text">© Copyright 2016 Complejo Cultural Universitario | Vía Atlixcáyotl 2299 Puebla, Pue.
+            <p class="footer-text">© Copyright 2022 Complejo Cultural Universitario <br>Vía Atlixcáyotl 2299 Puebla,
+                Pue.
                 Cp 72810
                 Teléfono:
                 2.29.55.03</p>

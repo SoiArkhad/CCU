@@ -7,7 +7,11 @@ body {
 	background-image: url('../img/fondo.png');
 	background-size: contain;
 	background-repeat: no-repeat;
-	background-position: bottom 50px right 100px;
+	background-position: bottom 50px left 200px;
+}
+
+.logo {
+	width: 100px;
 }
 
 .links {
@@ -25,15 +29,6 @@ body {
 	color: #d7317c !important;
 }
 
-.navbar {
-	height: 7%;
-	background-color: #f2f2f2 !important;
-}
-
-/* .collapse {
-	border: 1px solid red;
-} */
-
 .texto-parrafo {
 	font-size: 13px;
 }
@@ -50,3 +45,131 @@ body {
 	font-weight: 600;
 	color: black;
 }
+
+/* PANTALLAS */
+
+@media (max-width: 575.98px) {
+	.navbar-brand {
+		margin-right: 0 !important;
+		padding-top: 0 !important;
+	}
+
+	.navbar {
+		height: 100% !important;
+		background-color: #f2f2f2 !important;
+	}
+
+	.margen {
+		padding-left: 3%;
+		padding-right: 3%;
+	}
+
+	.logo {
+		width: 60px !important;
+	}
+
+	.alto-slider img {
+		width: auto !important;
+		height: 300px !important;
+	}
+
+	.footer-text {
+		font-size: 13px;
+	}
+
+	.eventos > .nav-link {
+		font-size: 12px;
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+
+	body {
+		background-image: url('../img/fondo.png');
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: bottom 150px left 80px;
+	}
+}
+
+@media (min-width: 576px) {
+	.navbar-brand {
+		margin-right: 10px !important;
+		padding-top: 8% !important;
+	}
+
+	.navbar {
+		height: 50px !important;
+	}
+
+	.margen {
+		padding-left: 5%;
+		padding-right: 5%;
+		font-size: 12px !important;
+	}
+
+	.logo {
+		width: 60px !important;
+	}
+}
+
+@media (min-width: 768px) {
+	.navbar-brand {
+		margin-right: 30px !important;
+		padding-top: 7% !important;
+	}
+
+	.navbar {
+		height: 50px !important;
+		margin-bottom: 5%;
+	}
+
+	.margen {
+		padding-left: 5%;
+		padding-right: 5%;
+		font-size: 15px !important;
+	}
+
+	.logo {
+		width: 75px !important;
+	}
+}
+
+@media (min-width: 992px) {
+	.navbar-brand {
+		margin-right: 50px !important;
+		padding-top: 5% !important;
+	}
+	.navbar {
+		height: 80px !important;
+		margin-bottom: 3%;
+	}
+	.margen {
+		padding-left: 10%;
+		padding-right: 10%;
+		font-size: 22px !important;
+	}
+
+	.logo {
+		width: 100px !important;
+	}
+}
+
+/* @media (min-width: 1200px) {
+	.navbar-brand {
+		margin-right: 50px !important;
+		padding-top: 5% !important;
+	}
+	.navbar {
+		height: 80px !important;
+		margin-bottom: 2%;
+	}
+	.margen {
+		padding-left: 18%;
+		padding-right: 18%;
+		font-size: 22px !important;
+	}
+
+	.logo {
+		width: 100px !important;
+	}
+} */
