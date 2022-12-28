@@ -14,13 +14,6 @@ body {
 	width: 100px;
 }
 
-.animacion {
-	/* border: 1px red solid; */
-	text-align: center;
-	max-height: 15vh;
-	overflow: hidden;
-}
-
 .links {
 	font-weight: 400;
 	font-size: 1.2em;
@@ -57,6 +50,10 @@ body {
 	animation: modal 3s 1s forwards;
 	visibility: hidden;
 	opacity: 0;
+}
+
+.w-90 {
+	max-width: 90%;
 }
 
 /* PANTALLAS */
@@ -145,18 +142,18 @@ body {
 	}
 }
 
-@media (min-width: 992px) {
+@media (min-width: 992px) and (max-width: 1199.99px) {
 	.navbar-brand {
-		margin-right: 50px !important;
+		margin-right: 30px !important;
 		padding-top: 5% !important;
 	}
 	.navbar {
-		height: 80px !important;
+		height: 70px !important;
 		margin-bottom: 3%;
 	}
 	.margen {
-		padding: 0 10%;
-		font-size: 22px !important;
+		padding: 0 5%;
+		font-size: 20px !important;
 	}
 
 	.logo {
@@ -164,18 +161,37 @@ body {
 	}
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1200px) and (max-width: 1399.99px) {
 	.navbar-brand {
-		margin-right: 50px !important;
+		margin-right: 6% !important;
 		padding-top: 5% !important;
 	}
 	.navbar {
-		height: 80px !important;
+		height: 70px !important;
 		margin-bottom: 2%;
 	}
 	.margen {
-		padding: 0 18% !important;
-		font-size: 22px !important;
+		padding: 0 7% !important;
+		font-size: 20px !important;
+	}
+
+	.logo {
+		width: 100px !important;
+	}
+}
+
+@media (min-width: 1400px) {
+	.navbar-brand {
+		margin-right: 6% !important;
+		padding-top: 5% !important;
+	}
+	.navbar {
+		height: 90px !important;
+		margin-bottom: 2%;
+	}
+	.margen {
+		padding: 0 10% !important;
+		font-size: 20px !important;
 	}
 
 	.logo {
