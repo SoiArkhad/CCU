@@ -4,10 +4,11 @@
 
 body {
 	font-family: 'Source Sans Pro', sans-serif;
+
 	background-image: url('../img/fondo.png');
 	background-size: contain;
 	background-repeat: no-repeat;
-	background-position: bottom 50px right 200px;
+	background-position: bottom 50px left 70px;
 }
 
 .logo {
@@ -56,6 +57,31 @@ body {
 	max-width: 90%;
 }
 
+.texto-5 {
+	padding: 1em;
+	font-size: 0.75rem;
+}
+
+.texto-4 {
+	padding: 0 1em;
+	font-size: 1rem;
+}
+
+.texto-3 {
+	padding: 0 0.5em;
+	font-size: 2rem;
+}
+
+.texto-2 {
+	padding: 0 1em;
+	font-size: 2.5rem;
+}
+
+.texto-1 {
+	padding: 0 1em;
+	font-size: 3rem;
+}
+
 /* PANTALLAS */
 
 @media (max-width: 575.98px) {
@@ -65,8 +91,9 @@ body {
 	}
 
 	.navbar {
-		height: 100% !important;
-		background-color: #f2f2f2 !important;
+		padding: 2% 0;
+		vertical-align: middle;
+		background-color: #ebe7e7 !important;
 	}
 
 	.margen {
@@ -97,7 +124,7 @@ body {
 		background-image: url('../img/fondo.png');
 		background-size: contain;
 		background-repeat: no-repeat;
-		background-position: bottom 150px left 80px;
+		background-position: bottom 150px left 50px;
 	}
 }
 
@@ -140,6 +167,13 @@ body {
 	.logo {
 		width: 75px !important;
 	}
+
+	body {
+		background-image: url('../img/fondo.png');
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: bottom 50px left 275px;
+	}
 }
 
 @media (min-width: 992px) and (max-width: 1199.99px) {
@@ -158,6 +192,13 @@ body {
 
 	.logo {
 		width: 100px !important;
+	}
+
+	body {
+		background-image: url('../img/fondo.png');
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: bottom 50px left 400px;
 	}
 }
 
@@ -178,6 +219,13 @@ body {
 	.logo {
 		width: 100px !important;
 	}
+
+	body {
+		background-image: url('../img/fondo.png');
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: bottom 50px left 500px;
+	}
 }
 
 @media (min-width: 1400px) {
@@ -196,6 +244,17 @@ body {
 
 	.logo {
 		width: 100px !important;
+	}
+
+	.fs-6 {
+		font-size: ;
+	}
+
+	body {
+		background-image: url('../img/fondo.png');
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: bottom 50px left 900px;
 	}
 }
 
