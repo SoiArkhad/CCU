@@ -59,6 +59,9 @@ body {
 	opacity: 0;
 }
 
+.flota {
+	float: right;
+}
 /* PANTALLAS */
 
 @media (max-width: 575.98px) {
