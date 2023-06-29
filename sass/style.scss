@@ -1,0 +1,242 @@
+@import '../node_modules/bootstrap/scss/bootstrap';
+
+.espacio {
+	border: 1px red solid;
+}
+
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+
+	background-image: url('../img/fondo.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: bottom 50px left 70px;
+}
+
+.logo {
+	width: 100px;
+}
+
+.links {
+	font-weight: 400;
+	font-size: 1.2em;
+}
+
+.eventos .nav-link.active {
+	font-weight: 600;
+	color: #501830 !important;
+}
+
+.eventos .nav-link {
+	font-weight: 400;
+	color: #d7317c !important;
+}
+
+.texto-parrafo {
+	font-size: 13px;
+}
+
+.social img {
+	width: 50px;
+}
+
+.social_icons a:hover {
+	color: blue;
+}
+
+.footer-text {
+	font-weight: 600;
+	color: black;
+}
+
+.modal {
+	animation: modal 3s 1s forwards;
+	visibility: hidden;
+	opacity: 0;
+}
+
+.flota {
+	float: right;
+}
+/* PANTALLAS */
+
+@media (max-width: 575.98px) {
+	.navbar-brand {
+		margin-right: 0 !important;
+		padding-top: 0 !important;
+	}
+
+	.navbar {
+		padding: 2% 0;
+		vertical-align: middle;
+		background-color: #ebe7e7 !important;
+	}
+
+	.margen {
+		padding: 0 3%;
+		font-size: 12px !important;
+	}
+
+	.logo {
+		width: 60px !important;
+	}
+
+	.alto-slider img {
+		width: auto !important;
+		height: 300px !important;
+	}
+
+	.footer-text {
+		font-size: 13px;
+	}
+
+	.eventos > .nav-link {
+		font-size: 12px;
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+
+	body {
+		background-image: url('../img/fondo.png');
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: bottom 150px left 50px;
+	}
+}
+
+@media (min-width: 576px) {
+	.navbar-brand {
+		margin-right: 10px !important;
+		padding-top: 8% !important;
+	}
+
+	.navbar {
+		height: 50px !important;
+	}
+
+	.margen {
+		padding: 0 5%;
+		font-size: 12px !important;
+	}
+
+	.logo {
+		width: 60px !important;
+	}
+}
+
+@media (min-width: 768px) {
+	.navbar-brand {
+		margin-right: 30px !important;
+		padding-top: 7% !important;
+	}
+
+	.navbar {
+		height: 50px !important;
+		margin-bottom: 5%;
+	}
+
+	.margen {
+		padding: 0 5%;
+		font-size: 15px !important;
+	}
+
+	.logo {
+		width: 75px !important;
+	}
+
+	body {
+		background-image: url('../img/fondo.png');
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: bottom 50px left 275px;
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1199.99px) {
+	.navbar-brand {
+		margin-right: 30px !important;
+		padding-top: 5% !important;
+	}
+	.navbar {
+		height: 70px !important;
+		margin-bottom: 3%;
+	}
+	.margen {
+		padding: 0 5%;
+		font-size: 20px !important;
+	}
+
+	.logo {
+		width: 100px !important;
+	}
+
+	body {
+		background-image: url('../img/fondo.png');
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: bottom 50px left 400px;
+	}
+}
+
+@media (min-width: 1200px) and (max-width: 1399.99px) {
+	.navbar-brand {
+		margin-right: 6% !important;
+		padding-top: 5% !important;
+	}
+	.navbar {
+		height: 70px !important;
+		margin-bottom: 2%;
+	}
+	.margen {
+		padding: 0 7% !important;
+		font-size: 20px !important;
+	}
+
+	.logo {
+		width: 100px !important;
+	}
+
+	body {
+		background-image: url('../img/fondo.png');
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: bottom 50px left 500px;
+	}
+}
+
+@media (min-width: 1400px) {
+	.navbar-brand {
+		margin-right: 6% !important;
+		padding-top: 5% !important;
+	}
+	.navbar {
+		height: 90px !important;
+		margin-bottom: 2%;
+	}
+	.margen {
+		padding: 0 10% !important;
+		font-size: 20px !important;
+	}
+
+	.logo {
+		width: 100px !important;
+	}
+
+	.fs-6 {
+		font-size: 12px;
+	}
+
+	body {
+		background-image: url('../img/fondo.png');
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: bottom 50px left 900px;
+	}
+}
+
+@keyframes modal {
+	100% {
+		visibility: visible;
+		opacity: 1;
+	}
+}
