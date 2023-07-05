@@ -15,10 +15,16 @@ body {
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: bottom 50px left 70px;
+
+	color: #707070;
 }
 
 .logo {
 	width: 100px;
+}
+
+.c-orange{
+	color: #FF9000 ;
 }
 
 .links {
@@ -37,7 +43,19 @@ body {
 }
 
 .texto-parrafo {
-	font-size: 13px;
+	font-size: 1.2rem;
+}
+
+.subtitulos{
+	font-size: 2rem;
+}
+
+.texto-parrafo-small {
+	font-size: 1.1rem;
+}
+
+.img-complejo{
+	min-width: 18%;
 }
 
 .social img {
@@ -105,6 +123,23 @@ body {
 		background-size: contain;
 		background-repeat: no-repeat;
 		background-position: bottom 150px left 50px;
+	}
+
+	.texto-parrafo {
+		font-size: 1rem;
+	}
+	
+	.subtitulos{
+		font-size: 1.2rem;
+	}
+	
+	.texto-parrafo-small {
+		font-size: 1.1rem;
+	}
+
+	.img-complejo{
+		max-width: 50%;
+		margin: 0 auto;
 	}
 }
 
