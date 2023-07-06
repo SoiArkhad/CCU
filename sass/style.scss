@@ -10,13 +10,35 @@ $font-family-base: 'Source Sans Pro';
 
 body {
 	font-family: 'Source Sans Pro', sans-serif;
+	color: #707070;
+}
 
+.libelula {
 	background-image: url('../img/fondo.png');
 	background-size: contain;
 	background-repeat: no-repeat;
-	background-position: bottom 50px left 70px;
+	background-position: bottom 50px right 70px;
+}
 
-	color: #707070;
+.angel {
+	background-image: url('../img/servicios/angel.png');
+	background-size: 30%;
+	background-repeat: no-repeat;
+	background-position: bottom 0 right 70px;
+}
+
+.img-servicios{
+	background-image: url('../img/servicios/promo-servicios.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+
+	height: 700px;
+}
+
+.servicios-tituto{
+	font-size: 18rem;
+	line-height:0.7;
 }
 
 .logo {
@@ -56,6 +78,10 @@ body {
 
 .img-complejo{
 	min-width: 18%;
+}
+
+.icono-servicios{
+	width: 15%;
 }
 
 .social img {
@@ -252,6 +278,11 @@ body {
 		height: 90px !important;
 		margin-bottom: 2%;
 	}
+
+	.angel{
+		margin-bottom: 0% !important;
+	}
+
 	.margen {
 		padding: 0 10% !important;
 		font-size: 20px !important;
