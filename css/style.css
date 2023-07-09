@@ -13411,8 +13411,8 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-.espacio {
-  border: 1px red solid;
+.space {
+  height: 50px;
 }
 
 body {
@@ -13428,10 +13428,10 @@ body {
 }
 
 .angel {
-  background-image: url("../img/servicios/angel.png");
+  background-image: none;
   background-size: 30%;
   background-repeat: no-repeat;
-  background-position: bottom 0 right 70px;
+  background-position: bottom 0 right 0px;
 }
 
 .img-servicios {
@@ -13439,11 +13439,23 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 700px;
+  height: 300px;
+}
+
+.img-espacios {
+  background-image: url("../img/espacios/promo-espacios.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 300px;
+}
+
+.promo-espacios {
+  height: 40px;
 }
 
 .servicios-tituto {
-  font-size: 18rem;
+  font-size: 5rem;
   line-height: 0.7;
 }
 
@@ -13482,12 +13494,22 @@ body {
   font-size: 1.1rem;
 }
 
+.texto-espacios {
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+.texto-espacios-small {
+  font-size: 1.4rem;
+  font-weight: 900;
+}
+
 .img-complejo {
   min-width: 18%;
 }
 
 .icono-servicios {
-  width: 15%;
+  width: 150px;
 }
 
 .social img {
@@ -13544,7 +13566,7 @@ body {
     padding-left: 5px;
     padding-right: 5px;
   }
-  body {
+  .libelula {
     background-image: url("../img/fondo.png");
     background-size: contain;
     background-repeat: no-repeat;
@@ -13563,6 +13585,9 @@ body {
     max-width: 50%;
     margin: 0 auto;
   }
+  .img-servicios {
+    height: 300px;
+  }
 }
 @media (min-width: 576px) {
   .navbar-brand {
@@ -13578,6 +13603,9 @@ body {
   }
   .logo {
     width: 60px !important;
+  }
+  .img-servicios {
+    height: 700px;
   }
 }
 @media (min-width: 768px) {
@@ -13596,11 +13624,14 @@ body {
   .logo {
     width: 75px !important;
   }
-  body {
+  .libelula {
     background-image: url("../img/fondo.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: bottom 50px left 275px;
+  }
+  .img-servicios {
+    height: 700px;
   }
 }
 @media (min-width: 992px) and (max-width: 1199.99px) {
@@ -13619,11 +13650,14 @@ body {
   .logo {
     width: 100px !important;
   }
-  body {
+  .libelula {
     background-image: url("../img/fondo.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: bottom 50px left 400px;
+  }
+  .img-servicios {
+    height: 700px;
   }
 }
 @media (min-width: 1200px) and (max-width: 1399.99px) {
@@ -13642,11 +13676,14 @@ body {
   .logo {
     width: 100px !important;
   }
-  body {
+  .libelula {
     background-image: url("../img/fondo.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: bottom 50px left 500px;
+  }
+  .img-servicios {
+    height: 700px;
   }
 }
 @media (min-width: 1400px) {
@@ -13671,11 +13708,32 @@ body {
   .fs-6 {
     font-size: 12px;
   }
-  body {
+  .libelula {
     background-image: url("../img/fondo.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: bottom 50px left 900px;
+  }
+  .img-servicios {
+    height: 700px;
+  }
+  .img-espacios {
+    height: 800px;
+  }
+  .servicios-tituto {
+    font-size: 18rem;
+    line-height: 0.7;
+  }
+  .angel {
+    background-image: url("../img/servicios/angel.png");
+  }
+  .texto-espacios {
+    font-size: 2rem;
+    font-weight: 900;
+  }
+  .texto-espacios-small {
+    font-size: 1.4rem;
+    font-weight: 900;
   }
 }
 @-webkit-keyframes modal {
