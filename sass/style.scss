@@ -22,9 +22,16 @@ body {
 
 .angel {
 	background-image: none;
-	background-size: 30%;
+	background-size: 100%;
 	background-repeat: no-repeat;
 	background-position: bottom 0 right 0px;
+}
+
+.muda {
+	background-image: none;
+	background-size: 15%;
+	background-repeat: no-repeat;
+	background-position: bottom 50px right 200px;
 }
 
 .img-servicios{
@@ -330,7 +337,7 @@ body {
 		margin-bottom: 2%;
 	}
 
-	.angel{
+	.angel, .muda{
 		margin-bottom: 0% !important;
 	}
 
@@ -365,6 +372,10 @@ body {
 
 	.angel {
 		background-image: url('../img/servicios/angel.png');
+	}
+
+	.muda {
+		background-image: url('../img/muda.png');
 	}
 
 	.texto-espacios{
