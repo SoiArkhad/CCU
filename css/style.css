@@ -13493,6 +13493,14 @@ body {
   opacity: 0;
 }
 
+.link-espacios {
+  color: #707070;
+}
+
+.link-espacios:hover {
+  color: #FF9000;
+}
+
 .flota {
   float: right;
 }
