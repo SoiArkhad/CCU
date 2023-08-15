@@ -13407,6 +13407,27 @@ body {
   height: 300px;
 }
 
+.img-eventos {
+  position: relative;
+  height: 250px;
+  overflow: hidden;
+}
+
+.img-eventos::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url("../img/eventos/cinta.png");
+  background-size: cover;
+  background-position: center;
+  -webkit-filter: blur(5px);
+          filter: blur(5px);
+  z-index: -1;
+}
+
 .promo-espacios {
   height: 40px;
 }
@@ -13416,12 +13437,25 @@ body {
   line-height: 0.7;
 }
 
+.servicios-eventos {
+  font-size: 3rem;
+  padding-right: 10%;
+}
+
 .logo {
   width: 100px;
 }
 
 .c-orange {
   color: #FF9000;
+}
+
+.c-magenta {
+  color: #d7317c;
+}
+
+.c-yellow {
+  color: #FFCF00;
 }
 
 .links {
@@ -13557,6 +13591,12 @@ body {
   .img-servicios, .img-espacios {
     height: 300px;
   }
+  .img-eventos {
+    height: 100px;
+  }
+  .servicios-eventos {
+    padding-right: 0%;
+  }
 }
 @media (min-width: 576px) {
   .navbar-brand {
@@ -13575,6 +13615,9 @@ body {
   }
   .img-servicios, .img-espacios {
     height: 700px;
+  }
+  .img-eventos {
+    height: 250px;
   }
 }
 @media (min-width: 768px) {
@@ -13602,6 +13645,9 @@ body {
   .img-servicios, .img-espacios {
     height: 700px;
   }
+  .img-eventos {
+    height: 250px;
+  }
 }
 @media (min-width: 992px) and (max-width: 1199.99px) {
   .navbar-brand {
@@ -13628,8 +13674,15 @@ body {
   .img-servicios, .img-espacios {
     height: 400px;
   }
+  .img-eventos {
+    height: 250px;
+  }
   .servicios-tituto {
     font-size: 10rem;
+  }
+  .servicios-eventos {
+    font-size: 6rem;
+    padding-right: 10%;
   }
 }
 @media (min-width: 1200px) and (max-width: 1399.99px) {
@@ -13657,9 +13710,16 @@ body {
   .img-servicios, .img-espacios {
     height: 500px;
   }
+  .img-eventos {
+    height: 250px;
+  }
   .servicios-tituto {
     font-size: 13rem;
     line-height: 0.7;
+  }
+  .servicios-eventos {
+    font-size: 6rem;
+    padding-right: 10%;
   }
 }
 @media (min-width: 1400px) {
@@ -13693,9 +13753,16 @@ body {
   .img-servicios, .img-espacios {
     height: 700px;
   }
+  .img-eventos {
+    height: 250px;
+  }
   .servicios-tituto {
     font-size: 20rem;
     line-height: 0.7;
+  }
+  .servicios-eventos {
+    font-size: 6rem;
+    padding-right: 10%;
   }
   .angel {
     background-image: url("../img/servicios/angel.png");
